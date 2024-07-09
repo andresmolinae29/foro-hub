@@ -1,0 +1,1 @@
+ALTER TABLE topicos ADD CONSTRAINT fk_user_id foreign key (autor) references users (id);
